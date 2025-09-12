@@ -77,15 +77,19 @@ figure img {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
+    display: inline-block;
+    margin: 0rem auto;
 }
-
+article figure img {
+    width: 100%;
+}
 figcaption{
     color: white;
     font-size: 13px;
 }
 
 #logoPrincipal {
-    background-color: none;
+    background-color: #004080;
 }
 
 .titulo-principal-noticia {
